@@ -15,17 +15,17 @@ set /p memvalue="Enter the memory value: "
 )
 
 echo The following server launchers are available:
-echo 1. Vanilla
-echo 2. Mohist
-echo 3. Fabric
-echo 4. Forge
-echo 5. Catserver
-echo 6. Waterfall
-echo 7. Bungeecord
-echo 8. Velocity
-echo 9. Paper
-echo 10. Purpur
-echo 11. Sponge
+echo 1. Vanilla (1.19.4 - 1.7.4)
+echo 2. Mohist (1.19.4 - 1.7.10)
+echo 3. Fabric (1.19.4 - 1.14)
+echo 4. Forge | WIP (1.19.4 - 1.7.10)
+echo 5. Catserver | WIP
+echo 6. Waterfall | WIP
+echo 7. Bungeecord | WIP
+echo 8. Velocity | WIP
+echo 9. Paper | WIP
+echo 10. Purpur | WIP
+echo 11. Sponge | WIP
 set /p launcher=What server launcher do you want to install? Pick between 1 - 11.
 
 if !launcher! == 1 (
